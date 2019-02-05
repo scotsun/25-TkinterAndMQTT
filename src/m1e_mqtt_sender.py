@@ -1,5 +1,7 @@
 """ A simple example of using MQTT for SENDING messages. """
 
+import mqtt_remote_method_calls as com
+import time
 
 class DelegateThatReceives(object):
 
